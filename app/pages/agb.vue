@@ -43,7 +43,7 @@ useHead({ title: 'AGB — WerkTakt' })
       <div class="legal-block">
         <h2>§ 4 Preise und Zahlung</h2>
         <p>
-          Die aktuellen Preise sind auf <a href="/preise">werktakt.de/preise</a> einsehbar. Alle Preise verstehen
+          Die aktuellen Preise sind auf <a href="/#preise">werktakt.de/#preise</a> einsehbar. Alle Preise verstehen
           sich zzgl. der gesetzlichen Mehrwertsteuer. Die Rechnungsstellung erfolgt monatlich im Voraus.
           Zahlungsverzug berechtigt den Anbieter, den Zugang vorübergehend zu sperren.
         </p>

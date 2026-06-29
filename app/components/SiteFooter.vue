@@ -16,7 +16,6 @@
           <NuxtLink href="/#features">Features</NuxtLink>
           <NuxtLink href="/#preise">Preise</NuxtLink>
           <NuxtLink href="/#branchen">Branchen</NuxtLink>
-          <NuxtLink href="/changelog">Changelog</NuxtLink>
         </div>
         <div class="footer-col">
           <div class="footer-col-title">Für wen</div>
