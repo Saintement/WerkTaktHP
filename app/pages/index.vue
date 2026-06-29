@@ -299,9 +299,6 @@ const branchen = [
       </div>
     </section>
 
-    <!-- ── STORY ANIMATION ─────────────────────────────────── -->
-    <StoryAnimation />
-
     <!-- ── PROBLEM → LÖSUNG ────────────────────────────────── -->
     <section class="section section--dark">
       <div class="container">
