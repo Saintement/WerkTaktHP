@@ -181,103 +181,52 @@ const branchen = [
   <div>
     <!-- ── HERO ─────────────────────────────────────────────── -->
     <section class="hero">
-      <div class="hero-bg" aria-hidden="true">
-        <div class="hero-glow hero-glow--1" />
-        <div class="hero-glow hero-glow--2" />
-        <div class="hero-grid" />
-      </div>
+      <div class="hero-bloom" aria-hidden="true" />
 
       <div class="container hero-inner">
-        <div class="hero-content">
-          <div class="section-kicker section-kicker--dark">
-            Neu: Projektmodul & Stechuhr Auto-Erkennung
+        <div class="hero-eyebrow">
+          <span class="hero-badge">Neu: Projektmodul &amp; Stechuhr Auto-Erkennung</span>
+        </div>
+
+        <h1 class="hero-title">
+          Takt für dein<br>
+          <em class="hero-em">Handwerk.</em>
+        </h1>
+
+        <p class="hero-sub">
+          Kiosk-Zeiterfassung, Auftragssteuerung und Auswertung —<br>
+          für Betriebe, die mehr wollen als Excel.
+        </p>
+
+        <div class="hero-actions">
+          <NuxtLink href="#preise" class="btn btn--primary btn--lg">
+            Kostenlos starten
+          </NuxtLink>
+          <NuxtLink href="#features" class="btn btn--ghost-dark btn--lg">
+            Features ansehen
+          </NuxtLink>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-val">247</div>
+            <div class="hero-stat-lbl">Stück · Tag</div>
           </div>
-          <h1 class="hero-title">
-            Takt für dein<br>
-            <span class="hero-title-accent">Handwerk.</span>
-          </h1>
-          <p class="hero-sub">
-            WerkTakt verbindet Kiosk-Zeiterfassung, Auftragssteuerung
-            und Auswertung — einfach, präzise, modular. Für Betriebe,
-            Freelancer und Heimwerker.
-          </p>
-          <div class="hero-actions">
-            <NuxtLink href="#preise" class="btn btn--primary btn--lg">
-              Kostenlos starten
-            </NuxtLink>
-            <NuxtLink href="#features" class="btn btn--ghost-dark btn--lg">
-              Features ansehen
-            </NuxtLink>
+          <div class="hero-stat-sep" />
+          <div class="hero-stat">
+            <div class="hero-stat-val">84%</div>
+            <div class="hero-stat-lbl">Ø Effizienz</div>
           </div>
-          <div class="hero-trust">
-            <span class="trust-dot" />
-            Hosting in Deutschland &nbsp;·&nbsp; DSGVO-konform &nbsp;·&nbsp; Keine Kreditkarte nötig
+          <div class="hero-stat-sep" />
+          <div class="hero-stat">
+            <div class="hero-stat-val hero-stat-val--live">● live</div>
+            <div class="hero-stat-lbl">Stechuhr läuft</div>
           </div>
         </div>
 
-        <!-- App Mockup -->
-        <div class="hero-mockup" aria-hidden="true">
-          <div class="mockup-window">
-            <div class="mockup-titlebar">
-              <span class="dot red" /><span class="dot amber" /><span class="dot green" />
-              <span class="mockup-url">app.werktakt.de · Admin</span>
-            </div>
-            <div class="mockup-body">
-              <div class="mockup-sidebar">
-                <div class="sidebar-item sidebar-item--active">📊 Auswertung</div>
-                <div class="sidebar-item">📋 Aufträge</div>
-                <div class="sidebar-item">👥 Mitarbeiter</div>
-                <div class="sidebar-item">⚙ Einstellungen</div>
-              </div>
-              <div class="mockup-main">
-                <div class="mockup-header-row">
-                  <span class="mockup-title-text">Heute · Mo, 29.06.</span>
-                  <span class="chip chip--green">6 eingestempelt</span>
-                </div>
-                <div class="mockup-stats">
-                  <div class="stat-card">
-                    <div class="stat-val">247</div>
-                    <div class="stat-lbl">Stück heute</div>
-                  </div>
-                  <div class="stat-card">
-                    <div class="stat-val">84%</div>
-                    <div class="stat-lbl">Effizienz</div>
-                  </div>
-                  <div class="stat-card">
-                    <div class="stat-val">3</div>
-                    <div class="stat-lbl">Aktive Aufträge</div>
-                  </div>
-                </div>
-                <div class="mockup-runs">
-                  <div class="run-row">
-                    <div class="run-avatar">MM</div>
-                    <div class="run-info">
-                      <div class="run-name">Max Müller</div>
-                      <div class="run-prod">Europalette · Zuschnitt</div>
-                    </div>
-                    <div class="run-time">4:30 h</div>
-                  </div>
-                  <div class="run-row">
-                    <div class="run-avatar">AS</div>
-                    <div class="run-info">
-                      <div class="run-name">Anna Schmidt</div>
-                      <div class="run-prod">Hubmast · Zusammenbau</div>
-                    </div>
-                    <div class="run-time">2:15 h</div>
-                  </div>
-                  <div class="run-row">
-                    <div class="run-avatar">TK</div>
-                    <div class="run-info">
-                      <div class="run-name">Tom Klein</div>
-                      <div class="run-prod">Projekt: Tiny House #7</div>
-                    </div>
-                    <div class="run-time run-time--live">● 1:47 h</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mockup-glow" />
+        <div class="hero-trust">
+          <span class="trust-dot" />
+          Hosting in Deutschland &nbsp;·&nbsp; DSGVO-konform &nbsp;·&nbsp; Keine Kreditkarte nötig
         </div>
       </div>
     </section>
@@ -485,9 +434,10 @@ const branchen = [
 
 <style scoped>
 /* ── Hero ────────────────────────────────────────────────── */
+/* ── Hero ─────────────────────────────────────────────────── */
 .hero {
   position: relative;
-  background: var(--dark);
+  background: #000;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -495,89 +445,111 @@ const branchen = [
   padding-top: 68px;
 }
 
-.hero-bg {
+.hero-bloom {
   position: absolute;
   inset: 0;
   pointer-events: none;
-}
-
-.hero-glow {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.3;
-}
-
-.hero-glow--1 {
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, #6366f1 0%, transparent 70%);
-  top: -100px;
-  right: 10%;
-}
-
-.hero-glow--2 {
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, #4338ca 0%, transparent 70%);
-  bottom: 0;
-  left: 5%;
-  opacity: 0.2;
-}
-
-.hero-grid {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(99,102,241,0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(99,102,241,0.07) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+  background: radial-gradient(ellipse 80% 55% at 50% 38%, rgba(99,102,241,0.22) 0%, transparent 65%);
 }
 
 .hero-inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.hero-content {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.hero-eyebrow { margin-bottom: 36px; }
+
+.hero-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 7px 18px;
+  border-radius: 100px;
 }
 
 .hero-title {
-  font-size: clamp(44px, 6vw, 72px);
+  font-size: clamp(56px, 10vw, 128px);
   font-weight: 950;
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+  line-height: 0.97;
+  letter-spacing: -0.05em;
   color: white;
-  margin: 16px 0 24px;
+  margin: 0 0 32px;
 }
 
-.hero-title-accent {
-  background: linear-gradient(135deg, #818cf8 0%, #6366f1 50%, #c084fc 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.hero-em {
+  font-style: normal;
+  color: #6366f1;
 }
 
 .hero-sub {
-  font-size: 18px;
-  color: rgba(255,255,255,0.65);
+  font-size: clamp(16px, 1.4vw, 20px);
+  color: rgba(255,255,255,0.48);
   line-height: 1.65;
-  max-width: 480px;
-  margin-bottom: 36px;
+  max-width: 520px;
+  margin: 0 0 44px;
 }
 
 .hero-actions {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   flex-wrap: wrap;
-  margin-bottom: 32px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+/* Stats strip */
+.hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 28px 52px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  margin-bottom: 48px;
+}
+
+.hero-stat { text-align: center; }
+
+.hero-stat-val {
+  font-size: 38px;
+  font-weight: 950;
+  color: white;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.hero-stat-val--live {
+  font-size: 20px;
+  font-weight: 700;
+  color: #22c55e;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.hero-stat-lbl {
+  font-size: 11px;
+  color: rgba(255,255,255,0.32);
+  margin-top: 6px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.hero-stat-sep {
+  width: 1px;
+  height: 44px;
+  background: rgba(255,255,255,0.1);
+  flex-shrink: 0;
 }
 
 .hero-trust {
@@ -585,7 +557,7 @@ const branchen = [
   align-items: center;
   gap: 8px;
   font-size: 13px;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.28);
 }
 
 .trust-dot {
@@ -596,195 +568,9 @@ const branchen = [
   flex-shrink: 0;
 }
 
-/* ── App Mockup ───────────────────────────────────────────── */
-.hero-mockup {
-  position: relative;
-  z-index: 1;
-}
-
-.mockup-window {
-  background: #1e2133;
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.08);
-  box-shadow: 0 32px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.04);
-}
-
-.mockup-titlebar {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 12px 16px;
-  background: #171929;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-.dot.red   { background: #ef4444; }
-.dot.amber { background: #f59e0b; }
-.dot.green { background: #22c55e; }
-
-.mockup-url {
-  font-size: 11px;
-  color: rgba(255,255,255,0.3);
-  margin-left: 8px;
-  letter-spacing: 0.02em;
-}
-
-.mockup-body {
-  display: flex;
-  height: 340px;
-}
-
-.mockup-sidebar {
-  width: 140px;
-  background: #171929;
-  border-right: 1px solid rgba(255,255,255,0.06);
-  padding: 16px 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  flex-shrink: 0;
-}
-
-.sidebar-item {
-  font-size: 12px;
-  color: rgba(255,255,255,0.4);
-  padding: 8px 10px;
-  border-radius: 8px;
-  cursor: default;
-}
-
-.sidebar-item--active {
-  background: rgba(99,102,241,0.2);
-  color: #a5b4fc;
-  font-weight: 600;
-}
-
-.mockup-main {
-  flex: 1;
-  padding: 16px;
-  overflow: hidden;
-}
-
-.mockup-header-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 16px;
-}
-
-.mockup-title-text {
-  font-size: 13px;
-  font-weight: 700;
-  color: rgba(255,255,255,0.8);
-}
-
-.mockup-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.stat-card {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.07);
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.stat-val {
-  font-size: 20px;
-  font-weight: 800;
-  color: white;
-  letter-spacing: -0.03em;
-}
-
-.stat-lbl {
-  font-size: 10px;
-  color: rgba(255,255,255,0.4);
-  margin-top: 2px;
-}
-
-.mockup-runs {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.run-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
-  background: rgba(255,255,255,0.03);
-  border-radius: 8px;
-  border: 1px solid rgba(255,255,255,0.05);
-}
-
-.run-avatar {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: rgba(99,102,241,0.3);
-  color: #a5b4fc;
-  font-size: 10px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.run-info { flex: 1; min-width: 0; }
-
-.run-name {
-  font-size: 11px;
-  font-weight: 700;
-  color: rgba(255,255,255,0.8);
-}
-
-.run-prod {
-  font-size: 10px;
-  color: rgba(255,255,255,0.4);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.run-time {
-  font-size: 11px;
-  font-weight: 700;
-  color: rgba(255,255,255,0.6);
-  flex-shrink: 0;
-}
-
-.run-time--live {
-  color: #4ade80;
-  animation: pulse 2s ease-in-out infinite;
-}
-
 @keyframes pulse {
   0%, 100% { opacity: 1; }
-  50% { opacity: 0.6; }
-}
-
-.mockup-glow {
-  position: absolute;
-  bottom: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 70%;
-  height: 80px;
-  background: var(--primary);
-  filter: blur(40px);
-  opacity: 0.2;
-  border-radius: 50%;
+  50% { opacity: 0.5; }
 }
 
 /* ── Branchen Strip ───────────────────────────────────────── */
